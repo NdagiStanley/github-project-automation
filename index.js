@@ -19,6 +19,8 @@ const github = require('@actions/github');
 
         core.info('Log github');
         console.log(github.context);
+        console.log(github.context.payload.issue);
+        console.log(github.context.payload.pull_request);
 
         core.info('Log payload');
         core.info('Start!');
