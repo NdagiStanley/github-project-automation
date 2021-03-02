@@ -7,6 +7,7 @@ try {
     const projectURL = core.getInput('project_url');
     const column = core.getInput('column');
     const action = core.getInput('action');
+    core.info('Log inputs to the actions build log')
     console.log(`Token ${token}!`);
     console.log(`Project URL ${projectURL}!`);
     console.log(`Column ${column}!`);
