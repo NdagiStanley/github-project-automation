@@ -18,7 +18,7 @@ inputs:
     default: 'update'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
 branding:
   icon: 'git-pull-request'
   color: 'purple'
